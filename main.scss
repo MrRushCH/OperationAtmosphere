@@ -10,6 +10,3 @@ body {
     content: attr("data-content");
   }
 }
-
-
-<div class="class"data-content="Hallo"></div><div class="class"data-content="Fliege"></div>a.setAttribute('data-content', 'Test123')
