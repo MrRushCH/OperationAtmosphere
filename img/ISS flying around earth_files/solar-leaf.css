@@ -1,0 +1,45 @@
+.m-solar-leaf {
+  position: absolute;
+  width: 15%;
+  height: 45%;
+}
+
+.m-solar-leaf--top-left {
+  left: 18%;
+}
+
+.m-solar-leaf--bottom-left-left {
+  top: 55%;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.m-solar-leaf--bottom-left {
+  left: 18%;
+  top: 55%;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.m-solar-leaf--top-right-right {
+  right: 0;
+}
+
+.m-solar-leaf--top-right {
+  right: 18%;
+}
+
+.m-solar-leaf--bottom-right-right {
+  right: 0;
+  top: 55%;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.m-solar-leaf--bottom-right {
+  right: 18%;
+  top: 55%;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+/*# sourceMappingURL=solar-leaf.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAC;EACP,QAAQ,EAAE,QAAQ;EAClB,gBAAgB,EAAE,OAAc;EAChC,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,aAAa,EAAE,GAAG;EAClB,OAAO,EAAE,CAAC;EACV,OAAO,EAAE,CAAC;CACX",
+    "sources": [
+        "water.scss"
+    ],
+    "names": [],
+    "file": "water.css"
+}

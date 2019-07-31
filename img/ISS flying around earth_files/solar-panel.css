@@ -1,0 +1,10 @@
+.m-solar-panel {
+  position: absolute;
+  width: 40%;
+  height: 90%;
+}
+
+.m-solar-panel--right {
+  left: 60%;
+}
+/*# sourceMappingURL=solar-panel.css.map */

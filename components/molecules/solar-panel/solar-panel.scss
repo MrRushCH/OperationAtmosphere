@@ -1,0 +1,9 @@
+.m-solar-panel {
+    position: absolute;
+    width: 40%;
+    height: 90%;
+
+    &--right {
+        left: 60%;
+    }
+}

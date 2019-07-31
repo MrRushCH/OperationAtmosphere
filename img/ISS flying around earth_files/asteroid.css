@@ -1,0 +1,117 @@
+.a-asteroid-button {
+  position: absolute;
+  background-color: #888;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  right: 0;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.a-asteroid-button:focus .a-asteroid {
+  position: absolute;
+  background-color: #777;
+  width: 75px;
+  height: 50px;
+  border-radius: 25px;
+  -webkit-animation-name: asteroid-animation;
+          animation-name: asteroid-animation;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  opacity: 0;
+  z-index: 50;
+}
+
+.a-asteroid-button:focus .a-asteroid--s {
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  bottom: 100px;
+  zoom: 0.4;
+}
+
+.a-asteroid-button:focus .a-asteroid--m {
+  -webkit-animation-delay: 7.5s;
+          animation-delay: 7.5s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  bottom: 150px;
+  zoom: 0.6;
+}
+
+.a-asteroid-button:focus .a-asteroid--l {
+  -webkit-animation-delay: 10s;
+          animation-delay: 10s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  bottom: 300px;
+  zoom: 0.8;
+}
+
+@-webkit-keyframes asteroid-animation {
+  0% {
+    left: 120%;
+  }
+  10% {
+    opacity: 1;
+    left: 120%;
+  }
+  60% {
+    background-color: #777;
+    left: 40%;
+  }
+  75% {
+    background-color: orangered;
+    opacity: 1;
+    left: 25%;
+    width: 75px;
+    height: 50px;
+  }
+  76% {
+    background-color: black;
+  }
+  100% {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    opacity: 0;
+    border-radius: 100px;
+    left: 15%;
+  }
+}
+
+@keyframes asteroid-animation {
+  0% {
+    left: 120%;
+  }
+  10% {
+    opacity: 1;
+    left: 120%;
+  }
+  60% {
+    background-color: #777;
+    left: 40%;
+  }
+  75% {
+    background-color: orangered;
+    opacity: 1;
+    left: 25%;
+    width: 75px;
+    height: 50px;
+  }
+  76% {
+    background-color: black;
+  }
+  100% {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    opacity: 0;
+    border-radius: 100px;
+    left: 15%;
+  }
+}
+/*# sourceMappingURL=asteroid.css.map */

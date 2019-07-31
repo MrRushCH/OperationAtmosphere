@@ -1,0 +1,19 @@
+.a-solar-branch {
+    position: absolute;
+    background-image: linear-gradient(180deg, #fff 60%, #777);
+    height: 12%;
+    width: 10%;
+    left: 30%;
+    top: 90%;
+
+    &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        background-image: linear-gradient(180deg, #fff 60%, #777);
+        height: 100%;
+        width: 100%;
+        left: 300%;
+        top: 0;
+    }
+}

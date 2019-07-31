@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,oBAAoB,CAAC;EACjB,QAAQ,EAAE,QAAQ;EAClB,MAAM,EAAE,GAAG;EACX,GAAG,EAAE,GAAG;EACR,KAAK,EAAE,GAAG;EACV,aAAa,EAAE,GAAG;EAClB,gBAAgB,EAAE,uCAAuC;EACzD,UAAU,EAAE,GAAG,CAAC,GAAG,CAAC,GAAG,CAAc,kBAAI;CAK5C;;AAHI,AAAD,2BAAQ,CAAC;EACL,KAAK,EAAE,CAAC;CACX",
+    "sources": [
+        "iss-branch-outer.scss"
+    ],
+    "names": [],
+    "file": "iss-branch-outer.css"
+}

@@ -1,0 +1,28 @@
+.m-mirror-block {
+  position: absolute;
+  width: 8%;
+  height: 25%;
+  -webkit-filter: brightness(190%);
+          filter: brightness(190%);
+}
+
+.m-mirror-block--top-left {
+  left: 36%;
+  top: 20%;
+}
+
+.m-mirror-block--top-right {
+  right: 36%;
+  top: 20%;
+}
+
+.m-mirror-block--bottom-right {
+  right: 36%;
+  bottom: 20%;
+}
+
+.m-mirror-block--bottom-left {
+  left: 36%;
+  bottom: 20%;
+}
+/*# sourceMappingURL=mirror-block.css.map */

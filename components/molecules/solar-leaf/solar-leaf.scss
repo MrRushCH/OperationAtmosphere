@@ -1,0 +1,40 @@
+.m-solar-leaf {
+    position: absolute;
+    width: 15%;
+    height: 45%;
+
+    &--top-left {
+        left: 18%;
+    }
+
+    &--bottom-left-left {
+        top: 55%;
+        transform: rotate(180deg);
+    }
+
+    &--bottom-left {
+        left: 18%;
+        top: 55%;
+        transform: rotate(180deg);
+    }
+
+    &--top-right-right {
+        right: 0;
+    }
+
+    &--top-right {
+        right: 18%;
+    }
+
+    &--bottom-right-right {
+        right: 0;
+        top: 55%;
+        transform: rotate(180deg);
+    }
+
+    &--bottom-right {
+        right: 18%;
+        top: 55%;
+        transform: rotate(180deg);
+    }
+}

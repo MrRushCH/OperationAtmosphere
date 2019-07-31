@@ -1,0 +1,26 @@
+.m-mirror-block {
+    position: absolute;
+    width: 8%;
+    height: 25%;
+    filter: brightness(190%);
+
+    &--top-left {
+        left: 36%;
+        top: 20%;
+    }
+
+    &--top-right {
+        right: 36%;
+        top: 20%;
+    }
+
+    &--bottom-right {
+        right: 36%;
+        bottom: 20%;
+    }
+
+    &--bottom-left {
+        left: 36%;
+        bottom: 20%;
+    }
+}

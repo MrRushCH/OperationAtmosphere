@@ -1,0 +1,120 @@
+$animation-base-duration: 20s;
+$shadowAlpha: 0.2;
+
+@mixin cloudGradient($blendStart) {
+  background-image: linear-gradient(116deg, #fff $blendStart, #cacaca);
+}
+
+.a-cloud {
+  z-index: 20;
+  position: absolute;
+  @include cloudGradient(75%);
+  animation-name: cloud-animation;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  border-radius: 20px;
+  left: 200%;
+  width: 130px;
+  height: 40px;
+  box-shadow: 30px 5px 5px rgba($color: #000000, $alpha: $shadowAlpha);
+
+  &--xxxs {
+    zoom: 8%;
+  }
+
+  &--xxs {
+    zoom: 16%;
+  }
+
+  &--xs {
+    zoom: 24%;
+  }
+
+  &--s {
+    zoom: 32%;
+  }
+
+  &--m {
+    zoom: 40%;
+  }
+
+  &--l {
+    zoom: 48%;
+  }
+
+  &--xl {
+    zoom: 56%;
+  }
+
+  &--xxl {
+    zoom: 64%;
+  }
+
+  &--xxxl {
+    zoom: 72%;
+  }
+
+  &::after {
+    @include cloudGradient(60%);
+    box-shadow: 5px 5px 5px rgba($color: #000000, $alpha: 0.1);
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50% 50% 50% 0;
+    left: 25px;
+    top: -40px;
+    z-index: 19;
+  }
+
+  &::before {
+    @include cloudGradient(50%);
+    box-shadow: 5px 5px 5px rgba($color: #000000, $alpha: 0.1);
+    content: "";
+    position: absolute;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    left: -5px;
+    top: -15px;
+    z-index: 21;
+  }
+}
+
+.a-cloud__animation-config {
+  animation-delay: var(--animation-delay);
+  animation-duration: var(--animation-delay);
+  top: var(--top);
+  zoom: var(--zoom);
+}
+
+@keyframes cloud-animation {
+  0% {
+    animation-timing-function: linear;
+    left: 100%;
+    opacity: 0;
+  }
+
+  10% {
+    animation-timing-function: linear;
+    opacity: 0.95;
+  }
+
+  80% {
+    animation-timing-function: linear;
+    opacity: 0.95;
+  }
+
+  90% {
+    animation-timing-function: linear;
+    opacity: 0;
+    left: 0%;
+  }
+
+  100% {
+    box-shadow: 5px 5px 5px rgba($color: #000000, $alpha: 0.4);
+    animation-timing-function: linear;
+    opacity: 0;
+    left: 100%;
+  }
+}

@@ -1,0 +1,13 @@
+.a-iss-cabin__connector {
+  z-index: 1;
+  position: absolute;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(60%, #fff), to(#777));
+  background-image: linear-gradient(90deg, #fff 60%, #777);
+  height: 90%;
+  width: 20%;
+  left: 40%;
+  top: 0;
+  -webkit-box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.3);
+}
+/*# sourceMappingURL=iss-cabin-connector.css.map */

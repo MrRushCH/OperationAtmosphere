@@ -1,0 +1,16 @@
+.a-iss-branch__outer {
+  position: absolute;
+  height: 80%;
+  top: 10%;
+  width: 35%;
+  border-radius: 10%;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(60%, #fff), to(#777));
+  background-image: linear-gradient(180deg, #fff 60%, #777);
+  -webkit-box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.a-iss-branch__outer--right {
+  right: 0;
+}
+/*# sourceMappingURL=iss-branch-outer.css.map */

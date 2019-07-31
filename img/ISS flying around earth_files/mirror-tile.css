@@ -1,0 +1,13 @@
+.a-mirror-tile {
+  float: left;
+  display: block;
+  width: calc(100%/3);
+  height: calc(100%/7);
+  background-color: #999;
+  outline: 1px solid black;
+}
+
+.a-mirror-tile:nth-child(2n+1) {
+  background-color: #777;
+}
+/*# sourceMappingURL=mirror-tile.css.map */

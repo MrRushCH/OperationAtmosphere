@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAC;EACX,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,GAAG;CAKd;;AAHI,AAAD,qBAAQ,CAAC;EACL,IAAI,EAAE,GAAG;CACZ",
+    "sources": [
+        "solar-panel.scss"
+    ],
+    "names": [],
+    "file": "solar-panel.css"
+}
