@@ -4,4 +4,8 @@ body {
   background-color: #000014;
   overflow: hidden;
 }
+
+.class::before {
+  content: attr("data-content");
+}
 /*# sourceMappingURL=main.css.map */
